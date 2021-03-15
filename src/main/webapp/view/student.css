@@ -1,0 +1,278 @@
+@import "./init.css";
+
+body{
+    background-color: #FFFAFA;
+}
+
+.bodyBox{
+    position: relative;
+    margin:0 auto;
+    width: 1000px;
+    height: 725px;
+    background-color: #96CDCD;
+}
+
+.titleAdvert{
+    width: 1000px;
+    height: 100px;
+    background-color: #1E90FF;
+    font-size: 80px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.leftBox{
+    float: left;
+    user-select: none;
+    width: 150px;
+    border:1px solid black;
+    background-image: linear-gradient(to bottom,#87CEEB,#666666);
+}
+
+.leftTitle{
+    width: 150px;
+    height: 100px;
+    font-size: 25px;
+    line-height: 50px;
+    border-bottom: 1px solid black;
+}
+
+
+.leftBox li{
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 50px;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bolder;
+}
+
+
+.leftBox li:hover{
+    cursor: pointer;
+    color: #666666;
+}
+
+.innerSelect{
+    display: inline-block;
+    margin-top: 2px;
+    margin-left: 5px;
+    width: 140px;
+    line-height: 25px;
+    text-align: center;
+    color: #96CDCD;
+    background-color: darkcyan;
+}
+
+.innerSelect:hover{
+    cursor: pointer;
+    color: #EEC900;
+}
+
+
+#myDetails img{
+    position: absolute;
+    right: 10px;
+    float: right;
+    margin-top: 17px;
+    width: 15px;
+    height: 15px;
+}
+
+.centerAdvert{
+    text-align: center;
+    line-height: 102px;
+    float: right;
+    width: 848px;
+    height: 102px;
+    background-color: #96CDCD;
+    font-size: 80px;
+}
+
+.myInformation::before{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.centerBox{
+    position: absolute;
+    left: 152px;
+    top: 202px;
+    width: 848px;
+    height: 523px;
+    overflow: hidden;
+}
+
+.myInformation{
+    float: left;
+    width: 848px;
+    height: 523px;
+}
+
+
+.myInformation .leftDiv{
+    float: left;
+    width: 600px;
+    height: 523px;
+    background-color: #00F5FF;
+}
+
+.myInformation .rightDiv{
+    position: relative;
+    float: right;
+    width: 248px;
+    height: 523px;
+    background-color: #00F5FF;
+}
+
+.myInformation .leftDiv span{
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    margin: 40px;
+    line-height: 50px;
+    font-size: 13px;
+    font-weight: bolder;
+}
+.lab{
+    width: 150px;
+    outline: none;
+    background-color: #00F5FF;
+}
+
+#information{
+    margin-left: 20px;
+    overflow: auto;
+    width: 560px;
+    height: 100px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.myInformation .rightDiv div{
+    width: 248px;
+    height: 200px;
+}
+
+.myInformation .rightDiv div img{
+    width: 165px;
+    height: 175px;
+}
+
+.myInformation .rightDiv button{
+    position: absolute;
+    bottom: 35px;
+    left: 85px;
+    width: 75px;
+    height: 75px;
+}
+#lab-file{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #1E90FF;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+#upLoad{
+    display: none;
+}
+
+/*.myInformation .rightDiv div div{*/
+/*    width: 165px;*/
+/*    overflow: hidden;*/
+/*}*/
+
+#courseList{
+    width: 848px;
+    height: 523px;
+    float: left;
+    background-color: #87CEEB;
+    overflow: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+#courseList .divStyle{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#courseList .aStyle{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 25px 50px;
+}
+
+#courseList .imgStyle{
+    width: 100px;
+    height: 100px;
+}
+
+#courseList .imgStyle:hover{
+    cursor: pointer;
+}
+
+.addCourse{
+    order: 9999;
+}
+
+
+.startDiv{
+    float: left;
+    width: 848px;
+    height: 523px;
+    background:url("../img/backImg.jpeg" ) no-repeat;
+    background-size:100% 100%;
+}
+
+
+#textBox{
+    float: left;
+    font-size: 20px;
+    width: 848px;
+    height: 506px;
+    overflow: auto;
+    background-color: #00F5FF;
+    padding-top: 17px;
+    overflow-x: hidden;
+}
+
+.outDiv{
+    width: 847px;
+}
+
+.titleStyle div{
+    display: inline-block;
+    width: 200px;
+    float: left;
+    text-align: center;
+}
+
+
+.listStyle{
+    font-size: 18px;
+    float: left;
+    width: 200px;
+    border: 1px solid black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.jump:hover{
+    cursor: pointer;
+    color: #96CDCD;
+    text-decoration: underline;
+}

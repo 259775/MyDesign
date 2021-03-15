@@ -1,0 +1,78 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>精品课程网站</title>
+    <link rel="stylesheet" type="text/css" href="student.css">
+    <script type="text/javascript" src="student.js" defer></script>
+</head>
+<body>
+    <div class="bodyBox">
+        <div class="titleAdvert">
+            This is first title!!!
+        </div>
+        <ul class="leftBox" style="height: 305px;">
+            <div class="leftTitle">
+                欢迎使用PS-B-0104系统
+            </div>
+            <li id="backIndex">主页</li>
+            <li id="myInformation">个人信息</li>
+            <li id="myCourse">我的课程
+            </li>
+            <li id="myDetails">
+                试题列表<img src="../img/close.png" id="myDetailsImg">
+            </li>
+            <span id="textList" style="height: 0px;" class="innerSelect"></span><br>
+            <span id="answer" class="innerSelect"></span>
+        </ul>
+        <div class="centerAdvert">
+            This is a advert
+        </div>
+
+        <div class="centerBox">
+            <div class="innerBox" style="width: 4000px;height: 523px;position: absolute;left: -2544px">
+                <div class="myInformation">
+                    <div class="leftDiv">
+                        <span>姓名：<input type="text" class="lab" id="username"></span>
+                        <span>年龄：<input type="text" class="lab" id="age"></span>
+                        <span>性别：<input type="text" class="lab" id="sex"></span>
+                        <span>电话：<input type="text" class="lab" id="native"></span>
+                        <span>籍贯：<input type="text" class="lab" id="phone"></span>
+                        <span>邮箱：<input type="text" class="lab" id="email"></span>
+
+                        <textarea id="information">自我介绍</textarea>
+
+                    </div>
+
+                    <div class="rightDiv">
+                        <div>
+                            <img src="../img/noPicture.jpeg" id="myPicture"><br>
+                            <label for="upLoad" id="lab-file">更换头像</label>
+                            <input type="file" id="upLoad">
+                        </div>
+
+                        <button id="saveButton">保存</button>
+                    </div>
+
+                </div>
+
+                <div id="courseList">
+                    <div class="addCourse divStyle"><a href="../index.jsp" class="aStyle"><img src="../img/addPicture.jpeg" class="imgStyle"></a>添加课程</div>
+                </div>
+
+
+
+                <div id="textBox">
+                    <div class="outDiv titleStyle">
+                        <div>课程ID</div>
+                        <div>课程名</div>
+                        <div>试题</div>
+                        <div>成绩</div>
+                    </div>
+                </div>
+
+                <div class="startDiv"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

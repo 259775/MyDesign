@@ -1,0 +1,190 @@
+@import "init.css";
+
+.bodySty{
+	position: relative;
+	margin: 0 auto;
+	width: 1000px;
+	height: 1200px;
+	background-color: #FFFAFA;
+	overflow: hidden;
+}
+
+.headSty{
+	width: 1000px;
+	height: 20px;
+	background-color: #96CDCD;
+}
+
+.headSty div{
+	float: right;
+	line-height: 20px;
+	padding-right: 10px;
+}
+
+.headSty div a{
+	margin-left: 2px;
+}
+
+.bodySty img{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+#titleOne{
+	width: 500px;
+	height: 50px;
+	float: left;
+	font-size: 40px;
+	color: #EEC900;
+	text-align: justify;
+	text-align-last: justify;
+	line-height: 50px;
+	background-image: linear-gradient(to right,#87CEEB,#1E90FF);
+	border-radius: 10%;
+}
+#titleTwo{
+	width: 500px;
+	height: 50px;
+	float: right;
+	font-size: 40px;
+	color: #EEC900;
+	text-align: justify;
+	text-align-last: justify;
+	line-height: 50px;
+	background-image: linear-gradient(to right,#1E90FF,#87CEEB);
+	border-radius: 10%;
+}
+
+#titleTwo:after{
+	display:block;
+	clear:both;
+	content:"";
+	visibility:hidden;
+	height:0;
+}
+
+.carousel img{
+	width: 1000px;
+	height: 500px;
+	float: left;
+}
+
+.carousel img:hover{
+	cursor: pointer;
+}
+/*.carousel div :hover{*/
+/*	cursor: pointer;*/
+/*}*/
+/*.carousel{
+	position: absolute;
+	left:0px;
+	height: 500px;
+	width: 5000px;
+	margin-top: 100px;
+}*/
+
+.carouselIcon{
+	position:absolute;
+	left: 850px;
+	top: 565px;
+}
+
+.carouselIcon div{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #00F5FF;
+	float: left;
+}
+
+.videoList{
+	width: 1000px;
+	height: 450px;
+	background-color: #96CDCD;
+	margin-top: 630px;
+	padding: 0 12px;
+}
+
+.videoList div {
+	margin-top:16px;
+	margin-left: 19px;
+	float: left;
+}
+
+.videoList div a{
+	display: inline-block;
+	width: 300px;
+	height: 200px;
+}
+
+.videoList div img{
+	width: 300px;
+	height: 150px;
+}
+.videoList div span{
+	width: 300px;
+	height: 50px;
+	font-size: 19px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+
+.endSty{
+	height: 120px;
+	width: 1000px;
+	background-color: #EEC900;
+}
+
+.endSty div{
+	float: left;
+	margin-left: 190px;
+	margin-top: 5px;
+}
+
+.endSty div a{
+	width: 300px;
+	height: 120px;
+}
+
+.endSty div a span {
+	display: inline-block;
+	width: 80px;
+	text-align: center;
+}
+.endSty div img{
+	width: 80px;
+	height: 70px;
+}
+
+.suspension{
+	position:fixed;
+	bottom: 100px;
+	right: 100px;
+	width: 40px;
+	height: 300px;
+	border-radius: 20%;
+	overflow: hidden;
+}
+
+.suspension a{
+	display: inline-block;
+	width: 40px;
+	height: 84px;
+	border-radius: 20%;
+	text-align: center;
+	padding-top: 15px;
+	font-size: 25px;
+	color: #666666;
+	background-color: #87CEEB;
+	border-bottom: 1px solid #666666;
+}
+
+.suspension div a:hover{
+	color:#EEC900;
+}
+
+.videoList div a span:hover{
+	color:dodgerblue;
+}

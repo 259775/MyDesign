@@ -1,0 +1,58 @@
+@import "init.css";
+
+body{
+    background-image: url("../img/t1.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-attachment:fixed;
+
+}
+
+.loginWicket{
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 250px;
+    height: 240px;
+    font-size: 20px;
+    /*-webkit-user-select:none;*/
+    /*-moz-user-select:none;*/
+    /*-ms-user-select:none;*/
+    user-select:none;
+}
+
+#errorMes{
+    height: 25px;
+    line-height: 25px;
+    font-size: 15px;
+    color: red;
+}
+
+.loginButton{
+    background-image: url("../img/loginIcon.png");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    outline: none;
+}
+.loginButton:hover{
+    cursor: pointer;
+}
+
+.loginText{
+    height: 25px;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 5px;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
